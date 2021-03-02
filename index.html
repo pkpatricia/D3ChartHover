@@ -22,7 +22,9 @@
         .append("svg")
         .attr("width", w)
         .attr("height", h)
-        .style("padding", "45px");
+        .style("border", "dashed")
+        .style("padding", "80px")
+        .style("margin", "80px");
 
     svg.selectAll("rect")
         .data(dataset)
